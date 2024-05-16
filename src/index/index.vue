@@ -44,8 +44,7 @@ onMounted(async () => {
                 客户反馈
             </template>
             <div style="width: 100%;">
-                <Table highlight-row :columns="state.columns" :data="state.fasD5">
-                </Table>
+                <Table highlight-row :columns="state.columns" :data="state.fasD5"></Table>
             </div>
         </Card>
     </Card>
